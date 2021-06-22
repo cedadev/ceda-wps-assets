@@ -32,13 +32,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/agstephens/ceda_wps_assets
+    $ git clone git://github.com/cedadev/ceda-wps-assets
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/agstephens/ceda_wps_assets/tarball/master
+    $ curl  -OL https://github.com/cedadev/ceda-wps-assets/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/agstephens/ceda_wps_assets
-.. _tarball: https://github.com/agstephens/ceda_wps_assets/tarball/master
+.. _Github repo: https://github.com/cedadev/ceda-wps-assets
+.. _tarball: https://github.com/cedadev/ceda-wps-assets/tarball/master

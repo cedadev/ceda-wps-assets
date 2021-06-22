@@ -9,7 +9,7 @@ You can contribute in many ways:
 
 ### Report Bugs
 
-Report bugs at https://github.com/agstephens/ceda_wps_assets/issues.
+Report bugs at https://github.com/cedadev/ceda-wps-assets/issues.
 
 If you are reporting a bug, please include:
 
@@ -35,7 +35,7 @@ articles, and such.
 
 ### Submit Feedback
 
-The best way to send feedback is to file an issue at https://github.com/agstephens/ceda_wps_assets/issues.
+The best way to send feedback is to file an issue at https://github.com/cedadev/ceda-wps-assets/issues.
 
 If you are proposing a feature:
 
@@ -46,9 +46,9 @@ If you are proposing a feature:
 
 ### Get Started!
 
-Ready to contribute? Here's how to set up `ceda_wps_assets` for local development.
+Ready to contribute? Here's how to set up `ceda-wps-assets` for local development.
 
-1. Fork the `ceda_wps_assets` repo on GitHub.
+1. Fork the `ceda-wps-assets` repo on GitHub.
 2. Clone your fork locally::
 
     $ git clone git@github.com:your_name_here/ceda_wps_assets.git
@@ -90,9 +90,6 @@ Before you submit a pull request, check that it meets these guidelines:
 2. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring, and add the
    feature to the list in README.md.
-3. The pull request should work for Python 2.7, 3.4, 3.5 and 3.6, and for PyPy. Check
-   https://travis-ci.org/agstephens/ceda_wps_assets/pull_requests
-   and make sure that the tests pass for all supported Python versions.
 
 ## Tips
 
@@ -113,4 +110,3 @@ $ git push
 $ git push --tags
 ```
 
-Travis will then deploy to PyPI if tests pass.

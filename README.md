@@ -3,7 +3,7 @@
 
 [![Pypi](https://img.shields.io/pypi/v/ceda_wps_assets.svg)](https://pypi.python.org/pypi/ceda_wps_assets)
 
-[![Travis](https://img.shields.io/travis/agstephens/ceda_wps_assets.svg)](https://travis-ci.org/agstephens/ceda_wps_assets)
+[![Travis](https://img.shields.io/travis/cedadev/ceda-wps-assets.svg)](https://travis-ci.org/cedadev/ceda-wps-assets)
 
 [![Documentation](https://readthedocs.org/projects/ceda-wps-assets/badge/?version=latest)](https://ceda-wps-assets.readthedocs.io/en/latest/?badge=latest)
 

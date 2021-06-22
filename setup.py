@@ -80,13 +80,13 @@ setup(
     long_description_content_type='text/markdown',
 
     include_package_data=True,
-    keywords='ceda_wps_assets',
-    name='ceda_wps_assets',
+    keywords='ceda, wps, assets, web, processing, service',
+    name='ceda-wps-assets',
     packages=find_packages(include=['ceda_wps_assets']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/agstephens/ceda_wps_assets',
+    url='https://github.com/cedadev/ceda-wps-assets',
     version=_package_version,
     zip_safe=False,
 )
