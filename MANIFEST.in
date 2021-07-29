@@ -5,7 +5,9 @@ include LICENSE
 include README.md
 
 recursive-include tests *
+recursive-include docs *.md conf.py Makefile make.bat *.jpg *.png *.gif
+recursive-include ceda_wps_assets *
+
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]
 
-recursive-include docs *.md conf.py Makefile make.bat *.jpg *.png *.gif
