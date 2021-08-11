@@ -1,4 +1,4 @@
-- process: wps_subset_cru_ts
+- process: SubsetCRUTimeSeries
   variables:
     cld: cloud cover (percentage)
     dtr: diurnal temperature range (degrees Celsius)
@@ -24,3 +24,33 @@
       catalogue_record: "https://catalogue.ceda.ac.uk/uuid/c26a65020a5e4b80b20018f148556681"
       test_files: "/badc/cru/data/cru_ts/cru_ts_4.05/data/wet/cru_ts4.05.1901.2020.wet.dat.nc.gz"
       default: True
+
+- process: SubsetHadUKGrid
+  frequencies:
+    mon: Monthly
+  spatial_averages:
+    1km: 1km
+  variables:
+    groundfrost: Number of days with ground frost (minimum grass temperature below zero)
+    pv: Partial pressure of water vapour
+    rainfall: Total precipitation amount
+    sfcWind: Wind speed at 10m
+    snowLying: Number of days with snow lying at 0900
+    sun: Sunshine hours
+    tas: Mean air temperature
+    tasmin: Minimum air temperature
+  bbox: "-14.0, 47.0, 4.0, 62.0,epsg:4326"
+  time_range: "1862-01-01/2018-12-31"
+  datasets:
+    - name: haduk_grid.v1.0.3.0.1km.mon.v20210712
+      long_name: HadUK-Grid dataset (v1.0.3.0)
+      time_range: "1862-01-01/2020-12-31"
+      catalogue_record: "https://catalogue.ceda.ac.uk/uuid/786b3ce6be54468496a3e11ce2f2669c"
+      test_files: "/badc/ukmo-hadobs/data/insitu/MOHC/HadOBS/HadUK-Grid/v1.0.3.0/1km/snowLying/mon/v20210712/snowLying_hadukgrid_uk_1km_mon_197101-197112.nc"
+      default: True
+    - name: haduk_grid.v1.0.2.1.1km.mon.v20200731
+      long_name: HadUK-Grid dataset (v1.0.2.1)
+      time_range: "1862-01-01/2020-12-31"
+      catalogue_record: "https://catalogue.ceda.ac.uk/uuid/89908dfcb97b4a28976df806b4818639"
+      test_files: "/badc/ukmo-hadobs/data/insitu/MOHC/HadOBS/HadUK-Grid/v1.0.2.1/1km/snowLying/mon/v20200731/snowLying_hadukgrid_uk_1km_mon_197101-197112.nc"
+
