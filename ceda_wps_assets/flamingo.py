@@ -1,6 +1,7 @@
 # Utils for flamingo WPS
 import yaml
 import os
+import re
 
 from operator import itemgetter
 
@@ -12,7 +13,7 @@ dset_assets_file = os.path.join(os.path.dirname(__file__),
 def get_dset_info(process):
     resp = yaml.load(open(dset_assets_file))
 
-    process = process.replace("/", ".").split(".")[-1]
+    process = re.sub("\.py$", "", process.replace("/", ".")).split(".")[-1]
     processes = [r["process"] for r in resp]
 
     if process not in processes:
