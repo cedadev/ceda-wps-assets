@@ -11,7 +11,7 @@ dset_assets_file = os.path.join(os.path.dirname(__file__),
 
 
 def get_dset_info(process):
-    resp = yaml.load(open(dset_assets_file))
+    resp = yaml.load(open(dset_assets_file), yaml.SafeLoader)
 
     process = re.sub("\.py$", "", process.replace("/", ".")).split(".")[-1]
     processes = [r["process"] for r in resp]
