@@ -11,7 +11,7 @@
     vap: vapour pressure (hPa)
     wet: wet day frequency (days)
   bbox: "-180.0, -90.0, 180.0, 90.0,epsg:4326"
-  time_range: "1901-01-16/2020-12-16"
+  time_range: "1901-01-16/2020-12-31"
   datasets: 
     - name: cru_ts.4.04
       long_name: Climatic Research Unit (CRU) TS (time-series) dataset 4.04
@@ -25,7 +25,7 @@
       test_files: "/badc/cru/data/cru_ts/cru_ts_4.05/data/wet/cru_ts4.05.1901.2020.wet.dat.nc.gz"
     - name: cru_ts.4.06
       long_name: Climatic Research Unit (CRU) TS (time-series) dataset 4.06
-      time_range: "1901-01-16/2021-12-16"
+      time_range: "1901-01-16/2021-12-31"
       catalogue_record: "https://catalogue.ceda.ac.uk/uuid/e0b4e1e56c1c4460b796073a31366980"
       test_files: "/badc/cru/data/cru_ts/cru_ts_4.06/data/wet/cru_ts4.06.1901.2021.wet.dat.nc.gz"
       default: True
