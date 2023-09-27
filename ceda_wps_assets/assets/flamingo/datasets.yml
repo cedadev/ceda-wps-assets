@@ -47,7 +47,7 @@
   bbox: "-13.01, 47.82, 3.55, 61.12,epsg:4326"
   time_range: "1862-01-01/2018-12-31"
   datasets:
-    - name: haduk_grid.v1.2.0.ceda.1km.mon.v20220310
+    - name: haduk_grid.v1.2.0.ceda.1km.mon.v20230328
       long_name: HadUK-Grid dataset (v1.2.0.ceda)
       time_range: "1862-01-01/2022-12-31"
       catalogue_record: "https://catalogue.ceda.ac.uk/uuid/46f8c1377f8849eeb8570b8ac9b26d86"
