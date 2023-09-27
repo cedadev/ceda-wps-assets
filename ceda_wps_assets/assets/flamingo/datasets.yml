@@ -59,13 +59,11 @@
       time_range: "1862-01-01/2021-12-31"
       catalogue_record: "https://catalogue.ceda.ac.uk/uuid/bbca3267dc7d4219af484976734c9527"
       test_files: "/badc/ukmo-hadobs/data/insitu/MOHC/HadOBS/HadUK-Grid/v1.1.0.0/1km/snowLying/mon/v20220310/snowLying_hadukgrid_uk_1km_mon_197101-197112.nc"
-      default: True
     - name: haduk_grid.v1.0.3.0.1km.mon.v20210712
       long_name: HadUK-Grid dataset (v1.0.3.0)
       time_range: "1862-01-01/2020-12-31"
       catalogue_record: "https://catalogue.ceda.ac.uk/uuid/786b3ce6be54468496a3e11ce2f2669c"
       test_files: "/badc/ukmo-hadobs/data/insitu/MOHC/HadOBS/HadUK-Grid/v1.0.3.0/1km/snowLying/mon/v20210712/snowLying_hadukgrid_uk_1km_mon_197101-197112.nc"
-      default: True
     - name: haduk_grid.v1.0.2.1.1km.mon.v20200731
       long_name: HadUK-Grid dataset (v1.0.2.1)
       time_range: "1862-01-01/2020-12-31"
