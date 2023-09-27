@@ -47,6 +47,19 @@
   bbox: "-13.01, 47.82, 3.55, 61.12,epsg:4326"
   time_range: "1862-01-01/2018-12-31"
   datasets:
+    - name: haduk_grid.v1.2.0.ceda.1km.mon.v20220310
+      long_name: HadUK-Grid dataset (v1.2.0.ceda)
+      time_range: "1862-01-01/2022-12-31"
+      catalogue_record: "https://catalogue.ceda.ac.uk/uuid/46f8c1377f8849eeb8570b8ac9b26d86"
+      test_files: "/badc/ukmo-hadobs/data/insitu/MOHC/HadOBS/HadUK-Grid/v1.1.0.0/1km/snowLying/mon/v20220310/snowLying_hadukgrid_uk_1km_mon_197101-197112.nc"
+      test_files: "/badc/ukmo-hadobs/data/insitu/MOHC/HadOBS/HadUK-Grid/v1.2.0.ceda/1km/snowLying/mon/v20230328/snowLying_hadukgrid_uk_1km_mon_197101-197112.nc"
+      default: True
+    - name: haduk_grid.v1.1.0.0.1km.mon.v20220310
+      long_name: HadUK-Grid dataset (v1.1.0.0)
+      time_range: "1862-01-01/2021-12-31"
+      catalogue_record: "https://catalogue.ceda.ac.uk/uuid/bbca3267dc7d4219af484976734c9527"
+      test_files: "/badc/ukmo-hadobs/data/insitu/MOHC/HadOBS/HadUK-Grid/v1.1.0.0/1km/snowLying/mon/v20220310/snowLying_hadukgrid_uk_1km_mon_197101-197112.nc"
+      default: True
     - name: haduk_grid.v1.0.3.0.1km.mon.v20210712
       long_name: HadUK-Grid dataset (v1.0.3.0)
       time_range: "1862-01-01/2020-12-31"
