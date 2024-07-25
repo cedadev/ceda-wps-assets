@@ -28,6 +28,16 @@
       time_range: "1901-01-16/2021-12-16"
       catalogue_record: "https://catalogue.ceda.ac.uk/uuid/e0b4e1e56c1c4460b796073a31366980"
       test_files: "/badc/cru/data/cru_ts/cru_ts_4.06/data/wet/cru_ts4.06.1901.2021.wet.dat.nc.gz"
+    - name: cru_ts.4.07
+      long_name: Climatic Research Unit (CRU) TS (time-series) dataset 4.07
+      time_range: "1901-01-01/2022-12-31"
+      catalogue_record: "https://catalogue.ceda.ac.uk/uuid/5fda109ab71947b6b7724077bf7eb753"
+      test_files: "/badc/cru/data/cru_ts/cru_ts_4.07/data/wet/cru_ts4.07.1901.2022.wet.dat.nc.gz"
+    - name: cru_ts.4.08
+      long_name: Climatic Research Unit (CRU) TS (time-series) dataset 4.08
+      time_range: "1901-01-01/2023-12-31"
+      catalogue_record: "https://catalogue.ceda.ac.uk/uuid/715abce1604a42f396f81db83aeb2a4b"
+      test_files: "/badc/cru/data/cru_ts/cru_ts_4.08/data/wet/cru_ts4.08.1901.2023.wet.dat.nc.gz"
       default: True
 
 - process: SubsetHadUKGrid
