@@ -11,7 +11,7 @@
     vap: vapour pressure (hPa)
     wet: wet day frequency (days)
   bbox: "-180.0, -90.0, 180.0, 90.0,epsg:4326"
-  time_range: "1901-01-16/2020-12-16"
+  time_range: "1901-01-01/2023-12-31"
   datasets: 
     - name: cru_ts.4.04
       long_name: Climatic Research Unit (CRU) TS (time-series) dataset 4.04
